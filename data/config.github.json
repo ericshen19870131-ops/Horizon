@@ -17,7 +17,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 7.0,
+        "threshold": 5.0,
         "topic_dedup": true
       },
       "tech-blog": {
@@ -25,7 +25,7 @@
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 7.0,
+        "threshold": 5.0,
         "topic_dedup": true
       }
     }
@@ -62,8 +62,8 @@
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 30,
-      "min_score": 150,
+      "fetch_top_stories": 40,
+      "min_score": 100,
       "profile": "tech-news"
     },
     "rss": [
@@ -128,8 +128,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 60,
+          "fetch_limit": 15,
+          "min_score": 50,
           "profile": "tech-news"
         },
         {
@@ -137,8 +137,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 60,
+          "fetch_limit": 15,
+          "min_score": 50,
           "profile": "tech-news"
         }
       ],
@@ -151,7 +151,7 @@
         {
           "channel": "zaihuapd",
           "enabled": true,
-          "fetch_limit": 20,
+          "fetch_limit": 30,
           "profile": [
             "tech-news",
             "finance-news"
@@ -164,7 +164,7 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": null,
+    "max_items": 10,
     "profile_order": [
       "tech-news",
       "tech-blog",
