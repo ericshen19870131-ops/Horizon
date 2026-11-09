@@ -210,5 +210,19 @@
       }
     },
     "headers": ""
+  },
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "smtp_username": null,
+    "imap_enabled": false,
+    "imap_server": "",
+    "imap_port": 993,
+    "email_address": "ericym2021@gmail.com",
+    "password_env": "EMAIL_PASSWORD",
+    "sender_name": "Horizon Daily",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
   }
 }
